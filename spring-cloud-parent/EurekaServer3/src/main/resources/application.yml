@@ -1,0 +1,15 @@
+server:
+  port: 8763
+
+eureka:
+  instance:
+    hostname: eureka3  #eureka服务端的实例名称
+  client:
+    register-with-eureka: false  #false表示不向注册中心注册自己。
+    fetch-registry: false   #false表示自己端是注册中心，维护服务实例，不需要检索服务
+    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  #单机版 设置与Eureka server交互的地址查询服务和注册服务都需依赖这个地址
+      defaultZone: http://eureka:8761/eureka/,http://eureka2:8762/eureka/
+spring:
+  application:
+    name: eurka-server33

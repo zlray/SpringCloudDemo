@@ -1,0 +1,21 @@
+server:
+  port: 8760
+
+spring:
+  application:
+    name: eureka-client
+
+
+eureka:
+  client: #客户端注册到服务列表中
+      service-url:
+        defaultZone: http://eureka:8761/eureka/,http://eureka2:8762/eureka/,http://eureka3:8763/eureka/
+  instance:
+    instance-id: eureka-client  #自定义服务名称
+    prefer-ip-address: true  # 访问路径可以显示ip
+
+info:
+  app.name: spring-cloud
+  company.name: zl
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

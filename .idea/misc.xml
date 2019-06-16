@@ -9,6 +9,11 @@
         <option value="$PROJECT_DIR$/spring-cloud-parent/EurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-parent/EurekaServer2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-parent/EurekaServer3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-parent/ServiceRibbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-parent/EurekaClient2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-parent/FeginDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-parent/HystrixDashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-parent/HystrixDashboardDemo/pom.xml" />
       </list>
     </option>
   </component>

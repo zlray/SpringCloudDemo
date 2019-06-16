@@ -3,10 +3,15 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/spring-cloud-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-parent/EurekaClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-parent/EurekaClient2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-parent/EurekaServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-parent/EurekaServer2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-parent/EurekaServer3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-parent/HystrixDashboardDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-parent/ServiceFeign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-parent/ServiceRibbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-parent/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-demo/ZuulDemo" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

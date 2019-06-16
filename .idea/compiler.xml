@@ -8,18 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="EurekaClient" />
+        <module name="EurekaClient2" />
         <module name="EurekaServer" />
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />
+        <module name="HystrixDashboardDemo" />
+        <module name="ServiceFeign" />
+        <module name="ServiceRibbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="EurekaClient" target="1.8" />
+      <module name="EurekaClient2" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="EurekaServer2" target="1.8" />
       <module name="EurekaServer3" target="1.8" />
+      <module name="HystrixDashboardDemo" target="1.8" />
+      <module name="ServiceFeign" target="1.8" />
+      <module name="ServiceRibbon" target="1.8" />
       <module name="spring-cloud-parent" target="1.8" />
+      <module name="ZuulDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
